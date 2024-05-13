@@ -1,0 +1,25 @@
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blueviolet;
+    height: 7.5vh;
+    width: 98.7vw;
+    margin-top: 4px;
+}   
+
+.main-title {
+    display: flex;
+}
+
+.ss-logo img{
+    height: 30px;
+    width: 40px;
+}
+.ss-title span{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}

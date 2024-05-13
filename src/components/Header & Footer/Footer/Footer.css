@@ -1,0 +1,10 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blueviolet;
+    height: 6vh;
+    width: 98.7vw;
+    margin-top: 1rem;
+    position: fixed;
+}
