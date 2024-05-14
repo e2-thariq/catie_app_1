@@ -7,4 +7,21 @@
     width: 98.7vw;
     margin-top: 1rem;
     position: fixed;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #313030;
+}
+
+.free-text {
+    margin-left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.user-logo img{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
 }

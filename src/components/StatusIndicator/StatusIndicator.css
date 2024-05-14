@@ -1,7 +1,39 @@
 .status-indicator-section {
-    border: 1px solid darkblue;
+    display: flex;
     height: 20vh;
     width: 20vw;
     margin-left: 10px;
-    margin-top: 4px;
+    /* margin-top: 2rem; */
+    overflow: hidden;
 }
+
+.status-indicator-box {
+    text-align: center;
+    height: 6.5rem;
+    width: 8rem;
+    min-width: 9em;
+    margin: 10px;
+    font-size: smaller;
+    overflow: hidden;
+    border: 0.5px solid green;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.status-indicator-box img {
+    height: 40px;
+    min-width: 50px;
+    margin: 0;
+}
+
+.status-indicator-box span {
+    text-align: center;
+    overflow: hidden;
+    margin: 3px;
+}
+
+.status-ind-font {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}   

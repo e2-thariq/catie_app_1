@@ -3,6 +3,7 @@ import CarouselSlide from '../CarouselSlide/CarouselSlide'
 import Header from '../Header & Footer/Header/Header'
 import Footer from '../Header & Footer/Footer/Footer'
 import Activities from '../Activities & Weather/Activities/Activities'
+import Weather from '../Activities & Weather/Weather/Weather'
 import StatusIndicator from '../StatusIndicator/StatusIndicator'
 
 export default function HomePage () {
@@ -17,7 +18,8 @@ export default function HomePage () {
                 </div>
 
                 <div className='activities-and-status-indicator'>
-                    <Activities />
+                    <Weather />
+                    {/* <Activities /> */}
                     <StatusIndicator />
                 </div>
 
