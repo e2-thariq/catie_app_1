@@ -1,6 +1,6 @@
 .activities-section {
     margin-left: 10px;
-    /* margin-top: 2rem; */
+    margin-top: 10px;
     height: 50vh;
     width: 23vw;
     overflow: hidden;
@@ -27,7 +27,7 @@
 }
 
 .vertical-line {
-    border-left: 1px solid white;
+    /* border-left: 1px solid white; */
     border-width: smaller;
     height: 3.5rem;
     margin: 4px;

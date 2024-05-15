@@ -1,8 +1,28 @@
 import './Weather.css'
-// import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import weather_logo from '../../../assets/logo/weather-1.png'
+import { api_urls } from '../../../api/api_urls';
 
-export default function Weather ({ weather }) {
+export default function Weather () {
+    const [weather, setWeather] = useState([]);
+
+    useEffect(() => {
+        const fetchWeather = async () => {
+            try{
+                const responseWeather = await fetch(api_urls.weatherApi);
+                const weatherData = await responseWeather.json();
+                console.log(`weather datas : ${weatherData}`)
+                setWeather(weatherData.data.foreCastBeans)
+
+            } catch (error) {
+                console.error('Error fetching weather data', error)
+            }
+
+        }
+
+        fetchWeather();
+
+    }, [])
 
     const weatherTemp = (api_temp) => {
         let regex = /(\d+)/;

@@ -1,5 +1,6 @@
 .App {
-  height: 98.5vh;
-  width: 99.5vw;
+  height: 99.9vh;
+  width: 99.9vw;
   overflow: hidden;
+  /* border: 3px solid black; */
 }

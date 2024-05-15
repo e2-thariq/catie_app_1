@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid blueviolet;
-    height: 6vh;
-    width: 98.7vw;
-    margin-top: 1rem;
+    /* border: 1px solid blueviolet; */
+    height: 7.5vh;
+    width: 99vw;
+    margin-top: 2.5rem;
+    margin-left: 8px;
     position: fixed;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;

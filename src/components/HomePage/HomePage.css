@@ -1,12 +1,13 @@
 .main-page {
-    background-color: pink;
-    height: 98vh;
-    width: 99vw;
-    border: 1px solid orange;
+    background-image: url('../../assets/background-images/bg-main-10.jpg');
+    height: 100vh;
+    width: 100vw;
+    margin-right: 2rem;
+    /* border: 1px solid orange; */
 }
 
 .carousel-slide {
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     height: 78vh;
     width: 72vw;
 }
@@ -17,11 +18,12 @@
     height: 79vh;
     width: 99vw;
     margin-top: 2px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .activities-and-status-indicator {
-    border: 1px solid yellow;
+    /* border: 1px solid black; */
+    margin-top: 14px;
     height: 78vh;
     width: 27vw;
 }

@@ -18,8 +18,8 @@ export default function HomePage () {
                 </div>
 
                 <div className='activities-and-status-indicator'>
-                    <Weather />
-                    {/* <Activities /> */}
+                    {/* <Weather /> */}
+                    <Activities />
                     <StatusIndicator />
                 </div>
 

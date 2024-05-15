@@ -112,9 +112,10 @@ body {
     margin-left: 9rem;
 }
 .logo-footer img {
-    height: 85px;
-    width: 160px;
+    height: 70px;
+    width: 120px;
 }
 .app-version {
     margin-right: 25.5rem;
+    font-size: 13px;
 }

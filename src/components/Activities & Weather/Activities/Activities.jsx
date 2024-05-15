@@ -54,7 +54,7 @@ export default function Activities () {
                         <span key={activityData.eventId}>
                             {
                                 activityData.eventList.map((item, index) => (
-                                    <div className='dividing-section'>
+                                    <div key={index} className='dividing-section'>
                                         <div className='left-side-content'>
                                             {item.startTime}
                                         </div>
